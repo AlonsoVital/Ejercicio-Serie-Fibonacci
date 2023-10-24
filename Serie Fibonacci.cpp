@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int fibonacci(int n)
+unsigned long long int fibonacci(unsigned long long int n)
 {
 	if (n==0)
 		return 0;
@@ -22,7 +22,7 @@ int main()
 	
 	for(i=0; i<num; ++i)
 	{
-		printf("%d ", fibonacci(i));
+		printf("%llu ", fibonacci(i));
 	}
 	
 	return 0;
